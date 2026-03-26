@@ -20,7 +20,8 @@ Create a structure called Employee that contains two members: an employee number
 employee’s compensation (in dollars; type float). Ask the user to fill in this data for three employees, store it in
 three variables of type struct Employee, and then display the information for each employee. Use a seperate
 display function for the information display.
-##Week02
+
+## Week02
 ### Experiment 01
 Write a program to define a structure with 5 members. The first member be student name and the other member
 be student roll number and marks obtained in 3 subjects. Input values from the user. Add the marks of the

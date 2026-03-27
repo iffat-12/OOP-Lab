@@ -35,3 +35,32 @@ format.
 Create a structure called Employee that contains two members: an employee number (type int) and the
 employee’s salary (in dollars; type float). Ask the user to fill in this data for three employees and then display
 the information for each employee. Use a separate display function for the information display.
+
+## Week03
+### Experiment 01
+Design a class called Date. The class should store a date in three integers: month, day, and year. There should be
+member functions to print the date in the following forms:
+12/25/2014
+December 25, 2014
+25 December 2014
+Demonstrate the class by writing a complete program implementing it.
+Input Validation: Do not accept values for the day greater than 31 or less than 1. Do not accept values for the
+month greater than 12 or less than 1.
+### Experiment 02
+Write a class definition Distance with two data members feet and inches
+This class also contains member functions
+* void setFeet(int)
+* void setInches( float)
+* void showDistance()
+Demonstrate the class by writing a complete program implementing it.
+### Experiment 03
+Write a class named Employee that has the following member variables:
+* Name: A string that holds the employee’s name
+* ID Number: An int variable that holds the employee’s ID number
+* Department: A string that holds the name of the department where the employee works
+* Position: A string that holds the employee’s job title
+Write appropriate mutator functions that store values in these member variables and accessor functions that
+return the values in these member variables. Once you have written the class, write a separate program that
+creates three Employee objects to hold the following data.
+The program should store this data in the three objects and then display the data for each employee on the
+screen.

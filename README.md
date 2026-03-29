@@ -78,13 +78,13 @@ Write a class named Employee that has the following member variables:
   - Department: A string that holds the name of the department where the employee works
   - Position: A string that holds the employee’s job title
   
-* A constructor that accepts the following values as arguments and assigns them to the
+1. A constructor that accepts the following values as arguments and assigns them to the
 appropriate member variables: employee’s name, employee’s ID number, department, and
 position
-* A constructor that accepts the following values as arguments and assigns them to the
+2. A constructor that accepts the following values as arguments and assigns them to the
 appropriate member variables: employee’s name and ID number. The department and position
 fields should be assigned an empty string ("")
-* A default constructor that assigns empty strings ("") to the name, department, and position
+3. A default constructor that assigns empty strings ("") to the name, department, and position
 member variables, and 0 to the idNumber member variable
 
 Write appropriate setter/getter functions that store values and return the values in these member

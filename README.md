@@ -78,13 +78,13 @@ Write a class named Employee that has the following member variables:
   - Department: A string that holds the name of the department where the employee works
   - Position: A string that holds the employee’s job title
   
-1. A constructor that accepts the following values as arguments and assigns them to the
+ A constructor that accepts the following values as arguments and assigns them to the
 appropriate member variables: employee’s name, employee’s ID number, department, and
 position
-2. A constructor that accepts the following values as arguments and assigns them to the
+ A constructor that accepts the following values as arguments and assigns them to the
 appropriate member variables: employee’s name and ID number. The department and position
 fields should be assigned an empty string ("")
-3. A default constructor that assigns empty strings ("") to the name, department, and position
+ A default constructor that assigns empty strings ("") to the name, department, and position
 member variables, and 0 to the idNumber member variable
 
 Write appropriate setter/getter functions that store values and return the values in these member
@@ -93,3 +93,24 @@ the following data.
 
 The program should store this data in the three objects and then display the data for each employee on
 the screen.
+
+### Experiment 02
+Write a Circle class that has the following member variables.
+* radius: a double
+* pi: a double initialized with the value 3.14159
+
+The class should have the following member functions:
+* Default Constructor: A default constructor that sets radius to 0.0
+* Constructor: Accepts the radius of the circle as an argument
+* setRadius: A mutator function for the radius variable
+* getRadius: An accessor function for the radius variable
+* getArea: Returns the area of the circle, which is calculated as:
+area = pi * radius * radius
+* getDiameter: Returns the diameter of the circle, which is calculated as:
+diameter = radius * 2
+* getCircumference: Returns the circumference of the circle, which is calculated as:
+
+circumference = 2 * pi * radius
+
+Write a program that demonstrates the Circle class by asking the user for the circle’s radius, creating
+a Circle object, and then reporting the circle’s area, diameter, and circumference.

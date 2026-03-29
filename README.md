@@ -108,9 +108,57 @@ The class should have the following member functions:
 area = pi * radius * radius
 * getDiameter: Returns the diameter of the circle, which is calculated as:
 diameter = radius * 2
-* getCircumference: Returns the circumference of the circle, which is calculated as:
-
-circumference = 2 * pi * radius
+* getCircumference: Returns the circumference of the circle, which is calculated as: circumference = 2 * pi * radius
 
 Write a program that demonstrates the Circle class by asking the user for the circle’s radius, creating
 a Circle object, and then reporting the circle’s area, diameter, and circumference.
+
+###  Experiment 03
+Design an `Inventory` class that can hold information and calculate data for items in a retail store’s inventory.
+
+Private Member Variables
+
+| Variable Name | Description |
+|---------------|-------------|
+| `itemNumber` | An `int` that holds the item’s item number. |
+| `quantity` | An `int` for holding the quantity of the items on hand. |
+| `cost` | A `double` for holding the wholesale per unit cost of the item. |
+| `totalCost` | A `double` for holding the total inventory cost of the item (`quantity * cost`). |
+
+Public Member Functions
+
+| Member Function | Description |
+|-----------------|-------------|
+| `Inventory()` | Default constructor that sets all member variables to `0`. |
+| `Inventory(int item, int qty, double c)` | Constructor that accepts item number, quantity, and cost. It stores the values and calls `setTotalCost()`. |
+| `setItemNumber(int item)` | Stores the item number. |
+| `setQuantity(int qty)` | Stores the quantity. |
+| `setCost(double c)` | Stores the cost per item. |
+| `setTotalCost()` | Calculates and stores `quantity * cost` in `totalCost`. |
+| `getItemNumber()` | Returns the item number. |
+| `getQuantity()` | Returns the quantity. |
+| `getCost()` | Returns the cost per item. |
+| `getTotalCost()` | Returns the total cost. |
+
+Input Validation
+
+The program should not accept negative values for:
+
+- `itemNumber`
+- `quantity`
+- `cost`
+
+If a negative value is entered, the user should be asked to enter the value again.
+
+Example
+
+```text id="9ic8jx"
+Enter item number: 101
+Enter quantity: 5
+Enter cost per item: 12.5
+
+Inventory Details
+Item Number: 101
+Quantity: 5
+Cost per Item: 12.5
+Total Cost: 62.5

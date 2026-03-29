@@ -73,10 +73,10 @@ screen.
 ## Week04
 ### Experiment 01
 Write a class named Employee that has the following member variables:
-  &nbsp;&nbsp;&nbsp;&nbsp; * Name: A string that holds the employee’s name
-  &nbsp;&nbsp;&nbsp;&nbsp; * idNumber: An int variable that holds the employee’s ID number
-  &nbsp;&nbsp;&nbsp;&nbsp; * Department: A string that holds the name of the department where the employee works
-  &nbsp;&nbsp;&nbsp;&nbsp; * Position: A string that holds the employee’s job title
+  - Name: A string that holds the employee’s name
+  - idNumber: An int variable that holds the employee’s ID number
+  - Department: A string that holds the name of the department where the employee works
+  - Position: A string that holds the employee’s job title
   
 * A constructor that accepts the following values as arguments and assigns them to the
 appropriate member variables: employee’s name, employee’s ID number, department, and

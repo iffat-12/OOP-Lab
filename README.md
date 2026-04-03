@@ -185,6 +185,48 @@ The objective of this exercise is to understand the concept of **static data mem
 
 Write a class **Capital** with one static data member `count`, which counts the number of objects created of a particular class.  
 
+## Week 06
+### Experiment 01
+Write a class definition **ComplexNumber** with two data members: `realPart` and `imaginaryPart`. We wish to perform **addition, subtraction, and multiplication** with objects of the ComplexNumber class.
 
+A complex number `c = a + bj` consists of two parts: the **real part** `a` and the **imaginary part** `bj`. We can perform arithmetic operations on complex numbers as follows:
 
+- **Addition (+):** `(a1 + b1j) + (a2 + b2j) = (a1 + a2) + (b1 + b2)j`  
+- **Subtraction (-):** `(a1 + b1j) – (a2 + b2j) = (a1 – a2) + (b1 – b2)j`  
+- **Multiplication (*):** `(a1 + b1j) * (a2 + b2j) = (a1a2 – b1b2) + (a1b2 + a2b1)j`
+Create objects of this class and test all the member functions.
+
+### Experiment 02
+The objective of this exercise is to how to learn the friend function of a class.
+**Room**
+- width : double
+- printWidth(Room) : friend void
+- setWidth(double) : void
+
+**Procedure**
+  
+Do the exercise and create an object of the Room class and call the setWidth() function to pass
+10.10 as the argument value. Later print the width of the room by calling the printWidth(Room)
+function. But see this function is a friend of the Room class, so this will not be a member of the
+class. Therefore we shall define it outside the class, rather than using the :: operators with the
+class member function definition.
+
+### Experiment 03
+Create a class Named Student which can save student information containing Roll Number, First Name, Last
+Name, Student class, Marks (can be in points) and grade. Set default values for class members in default
+constructor.
+Student Information to Store
+- Roll Number
+- First Name
+- Last Name
+- Student Class
+- Total Marks
+- Grade
+
+All the class members will be private and no getter setters would be created to set or get the values.
+
+- Overload constructor to initialize private class members with user provided values.
+- Create a function DisplayClassData which accepts the address of class student as argument.
+
+This function should display all data (private data members) in the function.
 

@@ -162,3 +162,29 @@ Item Number: 101
 Quantity: 5
 Cost per Item: 12.5
 Total Cost: 62.5
+```
+## Week05
+### Experiment 01  
+Design a **Payroll** class that has data members for an employee’s hourly pay rate, number of hours worked, and total pay for the week. Write a program with an array of seven Payroll objects. The program should ask the user for the number of hours each employee has worked and will then display the amount of gross pay each has earned.  
+
+**Input Validation:** Do not accept values greater than 60 for the number of hours worked.
+
+### Experiment 2  
+The objective of this exercise is to understand the declaration of a class with its data members and member functions, and the concept of passing objects as function parameters.  
+
+Create a class **Travel** with two data members: `kilometer` and `hour`. Class member functions:  
+- `input()` : void  
+- `show()` : void  
+- `add(Travel p)` : void — accepts an object of Travel as a parameter, adds the values of data members of the parameter object and the calling object, and displays the result.  
+
+**Instructions:**  
+- Declare two objects `t1` and `t2` of class Travel and input data in both objects.  
+- Call the `add` function with `t1` object and pass `t2` object as an argument.
+### Experiment 03 
+The objective of this exercise is to understand the concept of **static data members**.  
+
+Write a class **Capital** with one static data member `count`, which counts the number of objects created of a particular class.  
+
+
+
+

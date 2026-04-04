@@ -230,3 +230,42 @@ All the class members will be private and no getter setters would be created to 
 
 This function should display all data (private data members) in the function.
 
+## Week 07
+### Experiment 01
+Write a program that declares a Complex data type having real and imaginary as its private members. Using
+operator overloading declares an additional operator that helps in adding two complex objects. Similarly
+overload the = operator to assign one value of a complex object to the other complex object. I.e. Complex c, b;
+c – b; c+b; and c*b;
+
+| Complex |
+|---------|
+| `double rp;` // real part of the complex number |
+| `double ip;` // imaginary part of the complex number |
+| `Complex(double, double)` |
+| `Complex operator+(const Complex&)` |
+| `Complex operator-(const Complex&)` |
+| `Complex operator*(const Complex&)` |
+| `void print()` |
+
+### Experiment 02
+Design a class named Month. The class should have the following private members:
+- name A string object that holds the name of a month, such as “January,” “February,”
+- monthNumber An integer variable that holds the number of the month. For example, January would
+be 1, February would be 2, etc. Valid values for this variable are 1 through 12.
+
+In addition, provide the following member functions:
+- A default constructor that sets monthNumber to 1 and name to “January.”
+- A constructor that accepts the name of the month as an argument. It should set name to the
+value passed as the argument and set monthNumber to the correct value.
+- A constructor that accepts the number of the month as an argument. It should set monthNumber
+to the value passed as the argument and set name to the correct month name.
+- Appropriate set and get functions for the name and monthNumber member variables.
+- Prefix and postfix overloaded ++ operator functions that increment monthNumber and set
+name to the name of next month. If monthNumber is set to 12 when these functions execute,
+they should set monthNumber to 1 and name to “January.”
+- Prefix and postfix overloaded − − operator functions that decrement monthNumber and set
+name to the name of previous month. If monthNumber is set to 1 when these functions execute,
+they should set monthNumber to 12 and name to “December.”
+- Also, you should overload cout ’s << operator and cin ’s >> operator to work with the Month
+class. Demonstrate the class in a program.
+

@@ -269,3 +269,38 @@ they should set monthNumber to 12 and name to “December.”
 - Also, you should overload cout ’s << operator and cin ’s >> operator to work with the Month
 class. Demonstrate the class in a program.
 
+## Week 08
+### Experiment 01
+The objective of this exercise is to understand how to create derived classes. Imagine a publishing company that markets both book and audiocassette versions of its works. Create a class Publication that stores 
+- the title (a string) and
+- price (type float) of a publication.
+  
+Book, which adds 
+- a page count (type int), and
+
+Tape, which adds 
+- a playing time in minutes (type float).
+
+Each of these three classes should have a **getdata()** function to get its data fromthe user at thekeyboard and a **putdata()** function to display its data
+
+Write a main() program to test the Book and Tape classes by creating instances of them, askingtheuser to fill in data with getdata(), and then displaying the data with putdata().
+
+### Experiment 02
+Design a class named Employee. The class should keep the following information in
+- Employee name  Employee number
+- Hire date
+
+Write one or more constructors and the appropriate accessor and mutator functions for the class. 
+
+Next, write a class named ProductionWorker that is derived from the Employee class. The ProductionWorker class should have member variables to hold the following information: 
+- Shift (an integer)
+- Hourly pay rate (a double )
+
+The workday is divided into two shifts: day and night. The shift variable will hold an integer valuerepresenting the shift that the employee works. The day shift is shift 1, and the night shift is shift 2. Writeone or more constructors and the appropriate accessor and mutator functions For the class. Demonstratetheclasses by writing a program that uses a ProductionWorker object.
+
+### Experiment 03
+In a particular factory a shift supervisor is a salaried employee who supervises a shift. In additiontoasalary, the shift supervisor earns a yearly bonus when his or her shift meets production goals. 
+
+Design a ShiftSupervisor class that is derived from the Employee class you created in above task. The ShiftSupervisor class should have a member variable that holds the annual salary and a member variable that holds the annual production bonus that a shift supervisor has earned. 
+
+Write one or more constructorsand the appropriate accessor and mutator functions for the class. Demonstrate the class by writing a program that uses a ShiftSupervisor object.
